@@ -1,0 +1,211 @@
+body {
+    background-color: rgb(23, 23, 40);
+    color: white;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: #37374e;
+    color: #ffd0a6;
+}
+nav .left{
+    font-size: 2.0rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(107, 107, 231);
+    font-size: 1.02rem;
+}
+
+main hr {
+    border: 0;
+    background: rgb(107, 107, 231);
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 150px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.lrftSection {
+
+    font-size: 2.5rem;
+}
+
+.lrftSection .buttions {
+    padding: 23px 0;
+}
+
+.lrftSection .btn {
+
+    padding: 12px;
+    background-color: #3a3a70;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.rightSection img {
+    width: 89%;
+    margin: 15px;
+
+}
+
+.purple {
+    color: blueviolet;
+}
+
+#element {
+    color: blueviolet;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 40vh;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+.textgray {
+    color: gray;
+}
+
+.secondSection .box {
+    background: white;
+    width: 150vh;
+    height: 3px;
+    margin: 53px 10px;
+    display: flex;
+}
+
+.secondSection .vartical {
+    height: 93px;
+    width: 2px;
+    background-color: white;
+    margin: 0 125px;
+}
+
+.image-top {
+    width: 40px;
+    position: relative;
+    top: -41px;
+    left: 0px;
+}
+
+.vartical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 14px;
+}
+
+.vartical-desc {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 10px;
+}
+
+.thardeSection{
+    background-color:#171728;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content:space-around;
+}
+.thardeSection .thard-left{
+      color: white;
+    background-color: #171728;
+    padding: 12px;
+    width: 30%;
+    font-size: 1.9rem;
+}
+.thardeSection .thard-left .var{
+    position: relative;
+    top: -41px;
+    left: 16px;
+    height: 175px;
+    width: 4px;
+    background-color: white;
+}
+.thardeSection .thard-left .hor{
+    position: relative;
+    top: -256px;
+    left: 18px;
+    height: 3px;
+    width: 68px;
+    background-color: white;
+}
+
+.thardeSection .thard-right{
+   color: black;
+    background-color: red;
+    padding: 12px;
+    width: 30%;
+}
+
+
+
+
+
+
+footer {
+    background-color: #23233e;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+footer .footer-rightr {
+    color: gray;
+    text-align: center;
+    padding: 12px 0;
+}
